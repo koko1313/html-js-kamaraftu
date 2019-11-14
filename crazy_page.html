@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<style>
+#asd{
+	height: 200px;
+    width: 200px;
+	font-size: 68pt;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -80px;
+}
+</style>
+
+</head>
+<body>
+	<a href="index.html">Go to Kamaraftu</a>
+	<script>
+		window.setInterval(function(){
+			aa();
+		}, 100);
+	
+		function aa(){
+			document.body.style.backgroundColor = getRandomColor();
+			document.getElementById("asd").style.color = getRandomColor();
+		}
+		
+		function getRandomColor() {
+			var letters = '0123456789ABCDEF';
+			var color = '#';
+			for (var i = 0; i < 6; i++ ) {
+				color += letters[Math.floor(Math.random() * 16)];
+			}
+			return color;
+		}
+	</script>
+	<div id="asd">Hi</div>
+</body>
+</html>

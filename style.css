@@ -1,0 +1,33 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+}
+
+a{
+	display: block;      
+	position: absolute;
+	cursor: pointer;
+}
+
+#phone {
+	z-index: -1;
+	position: relative;
+}
+
+#display {
+	background-color: black;
+	border-radius: 5px;
+	overflow: hidden;
+	color: white;
+}
+
+#displayContent {
+	display: table-cell;
+	text-align: center; 
+    vertical-align: middle;
+}
+
+#keyboard {
+	position: relative;
+}

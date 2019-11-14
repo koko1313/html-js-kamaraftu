@@ -1,0 +1,45 @@
+<!DDCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body onResize="resize()" onLoad="resize()">
+	<div id="container" style="height: 98%">
+		<img id="phone" src="images/panel.png" style="display: block;  max-height: 100%;">
+		
+		<div id="display">
+			<div id="displayContent">
+				
+			</div>
+		</div>
+		
+		<div id="keyboard">
+			<a id="zeleno" onClick="press(this.id)" style="top: 2%; left: 3%; width: 40%; height: 10%;"></a>
+			<a id="cherveno" onClick="press(this.id)" style="top: 2%; left: 58%; width: 40%; height: 10%;"></a>
+			
+			<a id="answer" onClick="press(this.id)" style="top: 22%; left: 2%; width: 20%; height: 15%;"></a>
+			<a id="decline" onMouseDown="press(this.id)" style="top: 22%; left: 79%; width: 20%; height: 15%;"></a>
+			
+			<a id="joystick" onClick="press(this.id)" style="top: 16%; left: 35%; width: 30%; height: 21%;"></a>
+			
+			<a id="k1" onClick="press(this.id)" style="top: 43%; left: 4%; width: 25%; height: 10%;"></a>
+			<a id="k4" onClick="press(this.id)" style="top: 58%; left: 4%; width: 25%; height: 10%;"></a>
+			<a id="k7" onClick="press(this.id)" style="top: 73%; left: 4%; width: 25%; height: 10%;"></a>
+			<a id="kstar" onClick="press(this.id)" style="top: 88%; left: 4%; width: 25%; height: 10%;"></a>
+			
+			<a id="k2" onClick="press(this.id)" style="top: 43%; left: 36%; width: 29%; height: 10%;"></a>
+			<a id="k5" onClick="press(this.id)" style="top: 58%; left: 36%; width: 29%; height: 10%;"></a>
+			<a id="k8" onClick="press(this.id)" style="top: 73%; left: 36%; width: 29%; height: 10%;"></a>
+			<a id="k0" onClick="press(this.id)" style="top: 88%; left: 37%; width: 28%; height: 10%;"></a>
+			
+			<a id="k3" onClick="press(this.id)" style="top: 43%; left: 72%; width: 28%; height: 10%;"></a>
+			<a id="k6" onClick="press(this.id)" style="top: 58%; left: 72%; width: 28%; height: 10%;"></a>
+			<a id="k9" onClick="press(this.id)" style="top: 73%; left: 72%; width: 28%; height: 10%;"></a>
+			<a id="ksharp" onClick="press(this.id)" style="top: 88%; left: 72%; width: 25%; height: 10%;"></a>
+		</div>
+	</div>
+	
+	<a href="crazy_page.html">Go to the crazy page</a>
+</body>
+</html>
